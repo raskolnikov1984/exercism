@@ -7,3 +7,4 @@
 3. Resistor Color Duo.
 4. Resistor Color Trio.
 5. Two Fer.
+6. Leap
