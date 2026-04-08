@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LogLevelsTest" tests="11" skipped="0" failures="11" errors="0" timestamp="2026-03-26T02:01:58.578Z" hostname="aserradero-pc" time="0.026">
+  <properties/>
+  <testcase name="The reformat method correctly reformats an error log line removing spaces" classname="LogLevelsTest" time="0.009">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.reformat() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.reformat() method
+	at LogLevels.reformat(LogLevels.java:12)
+	at LogLevelsTest.reformatWithLeadingAndTrailingWhiteSpace(LogLevelsTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The reformat method correctly reformats an info log line" classname="LogLevelsTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.reformat() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.reformat() method
+	at LogLevels.reformat(LogLevels.java:12)
+	at LogLevelsTest.infoReformat(LogLevelsTest.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The reformat method correctly reformats an error log line" classname="LogLevelsTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.reformat() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.reformat() method
+	at LogLevels.reformat(LogLevels.java:12)
+	at LogLevelsTest.errorReformat(LogLevelsTest.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The message method returns the log line's message after removing leading and trailing spaces" classname="LogLevelsTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.message() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.message() method
+	at LogLevels.message(LogLevels.java:4)
+	at LogLevelsTest.messageWithLeadingAndTrailingWhiteSpace(LogLevelsTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The message method returns the log line's message of an info log" classname="LogLevelsTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.message() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.message() method
+	at LogLevels.message(LogLevels.java:4)
+	at LogLevelsTest.infoMessage(LogLevelsTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The logLevel method returns the log level of a warning log line" classname="LogLevelsTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.logLevel() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.logLevel() method
+	at LogLevels.logLevel(LogLevels.java:8)
+	at LogLevelsTest.warningLogLevel(LogLevelsTest.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The message method returns the log line's message of a warning log" classname="LogLevelsTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.message() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.message() method
+	at LogLevels.message(LogLevels.java:4)
+	at LogLevelsTest.warningMessage(LogLevelsTest.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The logLevel method returns the log level of an info log line" classname="LogLevelsTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.logLevel() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.logLevel() method
+	at LogLevels.logLevel(LogLevels.java:8)
+	at LogLevelsTest.infoLogLevel(LogLevelsTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The logLevel method returns the log level of an error log line" classname="LogLevelsTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.logLevel() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.logLevel() method
+	at LogLevels.logLevel(LogLevels.java:8)
+	at LogLevelsTest.errorLogLevel(LogLevelsTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The message method returns the log line's message of an error log" classname="LogLevelsTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.message() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.message() method
+	at LogLevels.message(LogLevels.java:4)
+	at LogLevelsTest.errorMessage(LogLevelsTest.java:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The reformat method correctly reformats a warning log line" classname="LogLevelsTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.reformat() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) LogLevels.reformat() method
+	at LogLevels.reformat(LogLevels.java:12)
+	at LogLevelsTest.warningReformat(LogLevelsTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
