@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AnnalynsInfiltrationTest" tests="30" skipped="0" failures="30" errors="0" timestamp="2026-04-09T01:28:30.659Z" hostname="aserradero-pc" time="0.035">
+  <properties/>
+  <testcase name="The canFreePrisoner method returns true when everyone is sleeping and pet dog is present" classname="AnnalynsInfiltrationTest" time="0.008">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.canReleasePrisonerIfEveryoneIsAsleepAndPetDogIsPresent(AnnalynsInfiltrationTest.java:173)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when everyone is awake and pet dog is absent" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfEveryoneIsAwakeAndPetDogIsAbsent(AnnalynsInfiltrationTest.java:161)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSpy method returns true when everyone is awake" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method
+	at AnnalynsInfiltration.canSpy(AnnalynsInfiltration.java:7)
+	at AnnalynsInfiltrationTest.canSpyIfEveryoneIsAwake(AnnalynsInfiltrationTest.java:102)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when everyone is awake and pet dog is present" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfEveryoneIsAwakeAndPetDogIsPresent(AnnalynsInfiltrationTest.java:149)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when only archer is sleeping and pet dog is absent" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfOnlyArcherIsAsleepAndPetDogIsAbsent(AnnalynsInfiltrationTest.java:305)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns true when only archer is sleeping and pet dog is present" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.canReleasePrisonerIfOnlyArcherIsAsleepAndPetDogIsPresent(AnnalynsInfiltrationTest.java:293)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when only prisoner is sleeping and pet dog is absent" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfOnlyPrisonerIsAsleepAndPetDogIsAbsent(AnnalynsInfiltrationTest.java:329)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when only knight is sleeping and pet dog is present" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfOnlyKnightIsAsleepAndPetDogIsPresent(AnnalynsInfiltrationTest.java:269)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFastAttack method returns false when knight is awake" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFastAttack() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFastAttack() method
+	at AnnalynsInfiltration.canFastAttack(AnnalynsInfiltration.java:3)
+	at AnnalynsInfiltrationTest.cannotExecuteFastAttackIfKnightIsAwake(AnnalynsInfiltrationTest.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSpy method returns true when everyone but prisoner is sleeping" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method
+	at AnnalynsInfiltration.canSpy(AnnalynsInfiltration.java:7)
+	at AnnalynsInfiltrationTest.canSpyIfEveryoneButPrisonerIsSleeping(AnnalynsInfiltrationTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSignalPrisoner method returns false when prisoner is sleeping and archer is awake" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSignalPrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSignalPrisoner() method
+	at AnnalynsInfiltration.canSignalPrisoner(AnnalynsInfiltration.java:11)
+	at AnnalynsInfiltrationTest.cannotSignalPrisonerIfArcherIsAwakeAndPrisonerIsSleeping(AnnalynsInfiltrationTest.java:120)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when only knight is awake and pet dog is absent" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfOnlyKnightIsAwakeAndPetDogIsAbsent(AnnalynsInfiltrationTest.java:257)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns true when only knight is awake and pet dog is present" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.canReleasePrisonerIfOnlyKnightIsAwakeAndPetDogIsPresent(AnnalynsInfiltrationTest.java:245)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSpy method returns true when only archer is sleeping" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method
+	at AnnalynsInfiltration.canSpy(AnnalynsInfiltration.java:7)
+	at AnnalynsInfiltrationTest.canSpyIfOnlyArcherIsSleeping(AnnalynsInfiltrationTest.java:82)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSpy method returns true when only knight is sleeping" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method
+	at AnnalynsInfiltration.canSpy(AnnalynsInfiltration.java:7)
+	at AnnalynsInfiltrationTest.canSpyIfOnlyKnightIsSleeping(AnnalynsInfiltrationTest.java:72)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSignalPrisoner method returns true when prisoner is awake and archer is sleeping" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSignalPrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSignalPrisoner() method
+	at AnnalynsInfiltration.canSignalPrisoner(AnnalynsInfiltration.java:11)
+	at AnnalynsInfiltrationTest.canSignalPrisonerIfArcherIsSleepingAndPrisonerIsAwake(AnnalynsInfiltrationTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when only archer is awake and pet dog is absent" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfOnlyArcherIsAwakeAndPetDogIsAbsent(AnnalynsInfiltrationTest.java:233)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when only prisoner is sleeping and pet dog is present" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfOnlyPrisonerIsAsleepAndPetDogIsPresent(AnnalynsInfiltrationTest.java:317)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFastAttack method returns true when knight is sleeping" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFastAttack() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFastAttack() method
+	at AnnalynsInfiltration.canFastAttack(AnnalynsInfiltration.java:3)
+	at AnnalynsInfiltrationTest.canExecuteFastAttackIfKnightIsSleeping(AnnalynsInfiltrationTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when only archer is awake and pet dog is present" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfOnlyArcherIsAwakeAndPetDogIsPresent(AnnalynsInfiltrationTest.java:221)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when only knight is sleeping and pet dog is absent" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfOnlyKnightIsAsleepAndPetDogIsAbsent(AnnalynsInfiltrationTest.java:281)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns false when everyone is sleeping and pet dog is absent" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.cannotReleasePrisonerIfEveryoneIsAsleepAndPetDogIsAbsent(AnnalynsInfiltrationTest.java:185)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns true when only prisoner is awake and pet dog is present" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.canReleasePrisonerIfOnlyPrisonerIsAwakeAndPetDogIsPresent(AnnalynsInfiltrationTest.java:197)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canFreePrisoner method returns true when only prisoner is awake and pet dog is absent" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canFreePrisoner() method
+	at AnnalynsInfiltration.canFreePrisoner(AnnalynsInfiltration.java:15)
+	at AnnalynsInfiltrationTest.canReleasePrisonerIfOnlyPrisonerIsAwakeAndPetDogIsAbsent(AnnalynsInfiltrationTest.java:209)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSignalPrisoner method returns false when both prisoner and archer are sleeping" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSignalPrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSignalPrisoner() method
+	at AnnalynsInfiltration.canSignalPrisoner(AnnalynsInfiltration.java:11)
+	at AnnalynsInfiltrationTest.cannotSignalPrisonerIfArcherAndPrisonerAreBothSleeping(AnnalynsInfiltrationTest.java:129)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSpy method returns false when everyone is sleeping" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method
+	at AnnalynsInfiltration.canSpy(AnnalynsInfiltration.java:7)
+	at AnnalynsInfiltrationTest.cannotSpyIfEveryoneIsSleeping(AnnalynsInfiltrationTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSignalPrisoner method returns false when both prisoner and archer are awake" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSignalPrisoner() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSignalPrisoner() method
+	at AnnalynsInfiltration.canSignalPrisoner(AnnalynsInfiltration.java:11)
+	at AnnalynsInfiltrationTest.cannotSignalPrisonerIfArcherAndPrisonerAreBothAwake(AnnalynsInfiltrationTest.java:138)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSpy method returns true when everyone but archer is sleeping" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method
+	at AnnalynsInfiltration.canSpy(AnnalynsInfiltration.java:7)
+	at AnnalynsInfiltrationTest.canSpyIfEveryoneButArcherIsSleeping(AnnalynsInfiltrationTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSpy method returns true when only prisoner is sleeping" classname="AnnalynsInfiltrationTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method
+	at AnnalynsInfiltration.canSpy(AnnalynsInfiltration.java:7)
+	at AnnalynsInfiltrationTest.canSpyIfOnlyPrisonerIsSleeping(AnnalynsInfiltrationTest.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The canSpy method returns true when everyone but knight is sleeping" classname="AnnalynsInfiltrationTest" time="0.0">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) AnnalynsInfiltration.canSpy() method
+	at AnnalynsInfiltration.canSpy(AnnalynsInfiltration.java:7)
+	at AnnalynsInfiltrationTest.canSpyIfEveryoneButKnightIsSleeping(AnnalynsInfiltrationTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
